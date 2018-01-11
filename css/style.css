@@ -1,0 +1,130 @@
+/*GLOBAL STYLES*/
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto Slab', serif;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+}
+/*HEADER STYLES*/
+.navigation ul {
+    margin: 0;
+}
+.navigation li {
+    display: inline-block;
+    line-height: auto;
+    vertical-align: middle;
+    padding: 30px;
+}
+.navigation a{
+    color: #a4243d;
+}
+.navigation img {
+    padding-left: 10%;
+}
+/*flexslider*/
+section {
+        padding-bottom: 20px;
+}
+.flexslider {
+    border: none;
+}
+.flex-control-paging li a {
+    background-color: #f45d54;
+}
+.flex-control-paging li a.flex-active {
+    background-color: #a4243d;
+}
+/*MAIN STYLES*/
+.production img {
+    max-width: 100%;
+}
+.vignete {
+    font-size: 1.5em;
+    color: #f45d54;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #f45d54;
+}
+.vignete span {
+    color: #a4243d;
+}
+.title {
+    text-align: center;
+    font-size: 2em;
+    color: #a4243d;
+    border-bottom: 2px solid #a4243d;
+}
+/*1-st section style*/
+.vignete-box {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.production p {
+    text-align: center;
+}
+.social-links {
+    text-align: center;
+}
+.social-links ul {
+    padding: 0;
+}
+.social-links li {
+    display: inline-block;
+    width: 30%;
+}
+.social-links i {
+    color: #f45d54;
+}
+/*2-nd section style*/
+.presentation ul{
+    font-size: 4em;
+}
+.presentation p {
+    text-align: justify;
+}
+/*FOOTER STYLES*/
+footer {
+    background-color: #482537;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-nav ul {
+    padding: 0;
+}
+.footer-nav li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-nav a {
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+    .navigation li {
+        display: block;
+        line-height: auto;
+        vertical-align: middle;
+        padding: 30px;
+    }
+    .presentation p {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 360px){
+    .social-links li {
+        display: block;
+        width: 100%;
+    }
+}
